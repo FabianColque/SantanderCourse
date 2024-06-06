@@ -19,4 +19,5 @@
  
  * Use restore command
  
- 
+ git restore file, in file not added delete modifications
+ git restore --staged file, in file added, returns no unstaged status
