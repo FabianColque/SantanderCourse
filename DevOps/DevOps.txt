@@ -14,3 +14,9 @@
  - Unmodified
  - Modified
  - Staged
+ 
+ git diff --staged  -> To see changes added.
+ 
+ * Use restore command
+ 
+ 
