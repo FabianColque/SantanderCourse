@@ -4,6 +4,13 @@
  git config --global user.name "Fabian"
  git config --global user.email "fbcolque@gmail.com"
  
+ git add .\README.md
  
+ git status
  
+ Status Git
  
+ - Untracked
+ - Unmodified
+ - Modified
+ - Staged
