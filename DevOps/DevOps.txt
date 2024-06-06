@@ -1,0 +1,9 @@
+ Santander DevOps Course
+ 
+ Configuracoes do git
+ git config --global user.name "Fabian"
+ git config --global user.email "fbcolque@gmail.com"
+ 
+ 
+ 
+ 
