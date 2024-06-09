@@ -1,0 +1,155 @@
+Redes e Sistemas
+
+NIC Network Interface Card
+    - Connection between computer and ethernet 
+	
+Hub
+    - Hardware, conexao cabos de par trançados
+	
+Switch
+    - Conectar computadores, ponto a ponto
+	
+Roteador
+    - Principal, acha melhor rota
+	
+Modem
+    - Modulacao e demoludacao de sinal de internet
+	
+***********
+
+Cabeamento estruturado
+
+Padroes estabelecidos de como serao as organizacoes
+
+Trançados
+    - Divididos em categorias que determinan a velocidade de transmissao de daods e o alcance em metros que o cabo pode suportar sem perda de pacotes
+    - UTP e STP
+    - Diferenca emtre eles eh o isolamento	
+    - STP eh isolado, material de aluminio para evitar interferencia
+	
+Cabo Coaxial
+    - Condutor de pulso eletrico
+    - utilizado com modens, blindado
+	
+Fibra Optica
+    - Ofrece maior velocidade
+    - Composta por pedaços de vidrios que permitem a propagaçao de luz
+	
+Rack
+    - Armario para hospedar os equipamentos de hardware como witches, roteadores, modens, fibra optica,..
+	
+***********************************
+
+Modelos OSI e TCP/IP
+
+Camadas empeza baixo para cima
+
+Modelo TCP/IP					Modelo OSI
+
+Apliçao ------------------------ Aplicaçao
+                                 Apresentaçao
+                                 Sessao
+Transporte --------------------- Transporte                      
+Internet ----------------------- Rede
+Acesso a Rede ------------------ Enlace
+                                 Fisica    
+
+OSI Open system interconnection
+
+Aplicaçao           Cliente
+Apresentaçao        Criptografia, dns, ssh,...
+Sessao              Estabelece uma sessao entre origin e destino    
+Transporte          Transporte TCP(envia dado com info de segmento, valida se enviou ou nao(verificacao)), UDP(nao valida se foi sucesso o envio) 
+Rede                Pensar o roteador, o segmento virou o pacote, rotea o pacote ate chegar ao destino
+Enlace              Fragmentar o pacote em quadros para ser enviado a nosso destino
+Fisica              Eh o hardware mesmo
+
+***********************************************
+
+IPV4 e IPV6
+
+IP 
+    - Internet Protocol, responsavel pelo endereçamento de pacotes de rede na camada 3  do modelo OSI.
+    
+IPV4
+    - Formato de 32 bits dividido em 4 octetos, onde cxada octeto pode variar de 0 ate 255
+    - 192.168.0.1
+    - Cresceu muito, chegou o limite. Aguantado com un NAT(Network Address Translation)
+    
+IPV6
+    - Formato de 128 bits dividido em 16 pares
+    - Resolve a limitaçao de ipv4
+    
+******************************************************
+
+Calculo de Subrede
+
+Criacao de subredes e prioridades para utilizacao de banda
+
+classes de endereço de IP
+
+A 1- 127
+B 128-191
+C 192-223
+D 224-239
+E 240-255  
+
+192.168.10.1 = 11000000.10101000.00001010.00000001
+
+Se mascaramos os 3 primeiros octetos, teriamos que fazer host no ultimo octeto
+Quantos enderecos disponiveis temos?
+Formula 2^b - 2, b numero de bits nao cobertos pelo mascaremtos
+2^8-2 = 254 disponiveis
+Por que -2?
+1        - endereco de gate, convecao
+um outro - broadcast
+
+***********************************************************
+
+Dominio, DNS e Latencia
+
+DNS - Domain Named System
+
+https:www.umbler.com/br
+
+https   -> Protocolo
+www     -> Subdominio
+umbler  -> dominio
+com     -> TLD
+br      -> subdiretorio
+
+Latencia, tempo de ida e volta do nossa requisicao
+
+************************************************************
+
+Principais comandos de configuracao
+
+ipconfig
+ipconfig /flushdns   -> limpa a cache da nossa dns
+ping google.com      -> enviar uma sinal para ver a latencia
+nslookup google.com  -> consultar o dns de um dominio
+tracert google.com   -> ver quantos saltos ate chegar o site
+route print          -> mostrar a tabela de roteador
+netstat              -> Quais portas estao sendo usados no nosso computador
+
+************************************************************
+
+Segurança
+
+wireless, redes sem fios
+
+************************************************************
+
+Wireless
+Cisco tracer simulador
+
+
+
+
+
+
+
+
+
+
+	
