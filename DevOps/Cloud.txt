@@ -1,0 +1,58 @@
+Cloud Computing
+
+Cloud publica x privada e principais proveedores 
+
+Datacenter: centro de processamento de dados
+
+provedores Cloud privada
+Algunos principais : redhat, vmware
+
+Virtualizacao
+
+VM | VM | VM
+----------
+Hypervisor
+----------
+hardware
+
+Publicos
+AWS, Azure, google cloud
+
+Utilizacao hibrida
+provada|hibrida|publica
+
+**********************************************
+Modelos
+Utilizacao de recursos *Revisar imagem*
+
+On-site   Toda a nossa responsabilidade
+IaaS      parete de rede e virtualizacao Ex AWS
+PaaS      ate execucao, soh deixa dados e aplicacao 
+SaaS      provee tudo la empresa  
+
+************************************************
+
+Principais servicos
+
+IAM
+EC2
+
+RDS         relational database service
+DynamoDB    banco no relacional    
+S3              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

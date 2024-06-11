@@ -1,0 +1,159 @@
+ Sistema Operacional Linux
+ 
+ Open source baseado em unix, 
+ criado por Linus Torvalds em 1991
+ 
+ conhecido por estabilidade, seguranca, 
+ flexibilidade e capacidade de customizacao
+ 
+ Kernel - nucleo do codigo
+ 
+ GUI - interfaz
+ CLI - terminal
+ 
+ Terminal de Linux
+ - Programa para interagir por comandos
+ 
+ 
+ Bash: software que interpreta os comandos
+ 
+ Comandos:
+ 
+ cat    : mostrar o conteudo de um arquivo
+ pwd    : diretorio de onde estamos
+ whoami : usuario que estou
+ cd     : para ir num diretorio
+ ls     : listar conteudo da pasta atual
+ ls -l  : ls com listado
+ ls -lr : ls com listado reverso
+ --help : para mostrar ayuda de um comandos
+ clear  : limpar terminal
+ touch nome_arquivo : cria um arquivo
+ mkdir nome_pasta   : cria uma pasta
+ mkdir -p dir1/dir2/dir3 : cria uma pasta dentro de outra e dentro de outra
+ tree: mostra o conteudo dentro da pasta e subpastas como uma arvore 
+ mv arquivo destino_pasta: move arquivo para o destino_pasta
+ cp arquivo ../destino_A: copia arquivo para o destino_A
+ mv arquivo arquivo2: copia e cria uma copia
+ rm arquivo: remove arquivo
+ rm -r diretorio: remove o diretorio e todo o seu conteudo
+ rm -d diretorio: remove se o diretorio estiver vazio
+ 
+ 
+ apt update : atualiza a base local da versao dos pacotes
+ sudo       : da permissao para fazer uma acao
+ Ex. sudo apt update
+ 
+ sudo apt install Algo: instalar Algo
+ sudo apt search text-editor: procura na base o que tem sobre text editor
+ sudo apt remove Algo: remove Algo
+ 
+ ***********************************************
+ Editores de Texto
+ 
+ Vim, Nano, vi
+ 
+ vim texto.txt: abre com vim o text.txt, cria se nao existe
+ comandos
+ i: para editar
+ Esc: sai do modo editar
+ :wq : Write and quit o arquivo
+ 
+ 
+sudo head arquivo
+sudo tail arquivo, fim do arquivo
+sudo last arquivo, mostra do comeco mas vai mostrando aos pocos 
+
+
+edicao
+p colar
+dd recorta
+u desfaz
+ctrl r, defaz 
+/algo procura algo
+n me leva para mais ocorrencias de uma busca
+:q sair sem salvar
+:q! sair sem salvar com certeza, ignora altercoes
+
+***************************************************
+Comprimir
+
+tar --help
+
+-c Compress
+-v verbose, mostrar o que fara, nao ficar sem ver
+-f qual sera o nome do arquivo
+-x Descompress
+-z zip
+
+tar -cvf mycompress.tar 
+
+tar -cvf myCompress2.tar algo.txt mydirectory/
+
+tar -xvf mycompress.tar
+
+tar -cvf other.tar *   => tudo
+
+tar -cvzf mycompress.tar.gz Algo* //tudo que comeca com Algo
+
+tar -xvzf mycompress.tar.gz //descompress com algoritmo zip
+
+*******************************************************
+
+Shell Script
+
+vim myScript.sh
+
+******
+-rw-rw-r--
+dividido em 3
+-rw- 
+******
+
+on the file:
+
+ #!/bin/bash     // que vou utilizar bash
+ #Criado por mim //eh um comentario, nao afeta o script
+ echo "."        //escreve um . no terminal
+ sleep 1         // dorme 1s
+
+Para executar
+./myScript.sh
+ 
+ 
+ #!/bin/bash
+ 
+ segundos="$1"
+ 
+ echo "."
+ slepp $segundos
+ 
+./myScript.sh 2 
+
+
+*********************************************
+
+Busca de arquivos
+
+find: busca de arquivos
+
+find /home/andre -name "myScript.sh" 
+
+find /home/andre -name "myScript.sh" -type f
+f: arquivos
+
+find / -mtime $
+
+find / -size +1MB
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
