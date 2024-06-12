@@ -42,6 +42,35 @@ DynamoDB    banco no relacional
 S3              
 
 
+**************************************************
+
+Arquitetura Cloud
+
+Well Architected framework
+
+Excelencia operacional
+Seguranca
+Confiabilidade
+Eficiencia e performance
+Otimizacao de custos
+Sustentabilidade
+
+***************************************************
+
+Infraestrutura como codigo
+
+Terraform
+Cloudformation
+
+****************************************************
+
+Deployment em cloud e esteiras de CI/CD
+
+****************************************************
+
+Seguranca em Cloud
+
+
 
 
 
