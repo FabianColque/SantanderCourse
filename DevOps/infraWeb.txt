@@ -1,0 +1,45 @@
+Introducao a infraestututra web
+
+Escalabilidade
+confiabilidade
+Seguranca
+Desempenho
+Flexibilidade
+Descentralizacao
+
+infraestututra
+ fisica
+ virtual
+ 
+**************************************
+
+Sistema operacional
+
+gerenciar recursos de software e hardware 
+
+- windows server
+- Linux e as outras distribuicoes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

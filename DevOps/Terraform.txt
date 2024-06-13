@@ -60,6 +60,61 @@ resource "aws_instance" "web" {
 }
 
 
+*************************************************
+Modulos
+
+Criacao de recursos
+
+como fazer uma vpc por exemplo
+
+Root Module
+  -- Child Modules
+  
+*************************************************
+
+Boas praticas
+
+Criar 
+
+settings.tf
+providers.tf
+data.tf
+e colocar os modules emcima dos recursos
+
+criar um variables.tf
+ - Para colocar variables a serem utilizadas nos arquivos principais
+ 
+variables.tf
+    variable "vcp_name" {
+        type = string
+    }
+
+    variable "instance_name" {
+        type = string
+    }
+
+enviroment
+    terraformsVariables.tf
+    
+    vcp_name = "Ada-treinamento-..."
+
+
+terraform fmt => formata os arquivos de boa forma
+
+
+********************************************************
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
