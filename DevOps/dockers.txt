@@ -1,0 +1,171 @@
+Dockers
+
+Isolar e otimizar aplicacoes e servicos, isolando-os em pequenos contextos que
+comunicam-se entre si.
+
+Comandos
+	Docker --help
+	docker run -ti nginx --name nginx -p 8081:8081  -> nginx seria uma imagem
+	docker ps -a -> listar containers
+	docker images
+	docker build -t minhaApp .
+	
+*******************
+Imagens
+
+
+instrucoes
+	From: base de sistema operacional que pode ser customizado
+	Workdor: directorio
+	Env: variaveis de ambiente
+	Eun: Roda comandos em tempo de execusao
+	Cmd: Toda comandos apos de inicio do container, permitindo que o preocesso seja prioritario
+	
+
+**************************
+Criando containers atraves de imagens
+
+Imutabilidade
+	Garante que o que esta rodando na minha maquina roda na de qualquer um.
+	
+
+********************************
+Volumes
+
+Containers e armazenamento
+	Containers por padrao nao armazenam estados, sendo considerados efemeros.
+
+Volumes
+	Se tornam necessarios para mantermos algumas informacies mesmo apos os containers deixarem de existir
+	
+Tipos de Volumes
+		- volume
+		- Bind		mais antiga, 
+		- tmpfs		temporario
+
+
+*************************************
+Redes
+	
+Comunicacao entre containers	
+
+Tipos de rede
+	- Bridge	eh o plugin default de rede
+	- Host		usa a rede do host	
+	- Overlay	quando temos hosts distribuidos
+	
+	
+*****************************************
+Ecossistema de containers
+
+Se comunicam e possuem particularidades
+Comando --link	
+
+**********************************************
+
+Docker compose
+
+Nos auxilia a criar stacks completas, 
+utilizando componentes do dockers como imagens, variaveis de ambiente, portas, etc
+
+Comandos
+
+docker-compose up
+docker-compose logs
+docker-compose ps
+docker-compose kill
+docker-compose rm -f
+docker-compose stop
+
+
+Orquestradores
+
+	Quem olha os containers
+	Famoso: Kubernets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+

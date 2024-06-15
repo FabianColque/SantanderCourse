@@ -1,0 +1,155 @@
+Infraestrutura AWS
+
+Modelo On Premise
+    Manter a infraestrutura de servidores de seu sistema/app fisicamente dentro da companhia
+    - Investimento inicial
+    - Energia e internet   
+    - restricao de accesso fisico
+    - Ambiente adequado
+    - Gastos de manutencao e troca de equipamentos
+    
+   
+Modelo Cloud computing    
+    Pay as you go
+    - Agilidade
+    - Elasticidade
+    - Economia
+    - Ser global em instantes
+   
+Proveedores
+    Amazon, Azure, AWS
+    
+IAAS
+    Infraestrutura como servicio
+    disponibiliza toda a infraestrutura por medio da nuvem
+    cliente nao se preocupa com questoes de infraestrutura fisica
+    
+
+PAAS
+    Plataforma como servicio
+    Permite desenvolver,e executar e gerenciar aplicacoes sem o trabalho de criar,
+    manter a infraestrutura ou plataforma
+    Ex. WAS Elastic, BeanStalk 
+    
+SAAS
+    Software como service
+    O cliente nao precisa se preocupar em manter o software nem gerencias atualizacoes
+    ex, google drive, dropbox, salesforce, slack, zoom
+    
+
+Modelo de responsabilidade compartilhada
+    Seguranca da nuvem
+    seguranca na nuvem
+   
+***********************
+
+Infraestrutura Global
+
+Regios   
+Zonas de disponibilidade
+31 regios lancadas
+99  zonas de disponibilidades
+mais de 410 pontos de presenca
+
+
+*****************************
+
+Alta disponibilidade
+    Arquitetura bem desenhada para ser capaz de suportar algum incidente
+
+Performance e latencia
+    OPerformance : Modo de comportamento e desempenho
+    Latencia: Intervalo de tempo entre requisicao e resposta
+    
+**************************************
+
+Overview de AWS
+
+Rica de documentacao
+Free tier/Nivel Gratuito
+
+
+Formas de interacao
+- AWS Console - no site
+- AWS SDK     - Kit de desenvolvimentos  
+- AES Cli     - console  
+
+******************************************************
+
+Provisionando um servidor na AWS
+
+EC2
+Instancias
+
+Amazon MarketPlace
+ softwares vendidos para ser utilizados na AWS
+ Imagens de produtos(Ex, wordpress, fortinet)
+ 
+***********************************************
+
+Provisionando um servidor na AWS?
+Hands On
+
+****************************************************
+
+Balanceameento de carga
+
+ Distribuir o trafego de rede igualmente em um grupo de recursos que 
+ oferecem suporte a uma aplicacao
+ 
+beneficios
+    Disponibiidade
+    Escalabilidade
+    Melhoria de performance
+    
+    
+Amazon Elastic Load Balancing
+ servicio de balanceamento de cara totalamente gerenciado que distribui automaticamente
+ o trafego de entrada de aplicacoes para varios destinos e dispositivos    
+ 
+ 
+*************************************************************
+
+Escalabilidade
+
+Aumentar ou diminuir as capacidades do software de lidar com o aumento 
+ou dimunuicao de carga de trabalho
+
+AWS Auto Scaling
+    Ajusta automaticamente a capacidade para manter um desempenho constante
+ 
+**************************************************************
+
+AWS Well-Architected Framework
+
+ajuda a entender os pros e contras nas decisoes que toma ao criar site
+
+
+ 
+
+
+
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    

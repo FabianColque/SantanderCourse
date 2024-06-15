@@ -21,6 +21,115 @@ gerenciar recursos de software e hardware
 - Linux e as outras distribuicoes
 
 
+Web Server
+
+eh um software por receber, processar e enviar solicitacoes de paginas web 
+para os clientes que as requisitam.
+
+Funciona atraves de um protocolo de comunicacao. 
+Quando um cliente(navegador web) faz uma solicitacao para o server web
+
+Populares
+Apache, BGINX, IIS
+
+Apache
+eh um servidor web gratuito e de codigo aberto que foi lancado em 1995
+Seu nome eh HTTPD, Apache eh o projeto responsavel pelo seu desenvolvimento.
+Suporta widows linux e unix
+
+NGINX
+eh um servidor web gratuito e de codigo aberto que foi lancado em 2004
+suporta windows lunix unix
+
+IIS
+Internet information service
+de windows
+
+
+Como escolher?
+depende das necessidades, objetivos.
+
+***************************************
+
+Banco de dados
+
+Banco de dados relacionais
+    Exemplos: MySQL, PostgresSQL e Oracle
+    Tabela, relacoes
+
+Bancos nao relacionais
+    Sem relacoes emtre os dados
+    orientadas para grandes quantidades de dados nao estruturados
+    NOSQL
+    Exemplos: MongoDB, Casandra, Redis.
+
+
+Arquitetura Cliente-Servidor
+    
+**********************************************
+
+Linguagens de programacao para Web
+
+HTML
+    Nao eh linguagem de programacao
+    Hipertext markup language
+    Organiza a distribuicao de elementos
+    
+CSS
+    Cascading style sheets
+    Linguagem de estilo
+    apariencia visual das paginas web
+    
+    
+Javascript
+    Client side rendering -> que o browser que executa o codigo
+    linguagem interpretada, que nao precisa ser compilada
+    
+        
+PHP
+    Hypertext preprocessor
+    eh uma linguagem de programacao utilizada pra criar aplicacoes web dinamicas. 
+    Ele permite nteragir com bnaco de daods,. enviar emails, criar formularios e outroas coisas
+    Eh uma linguagem server side rendering, ou seja todo codigo eh executado no servidor e apenas o
+    resultado eh enviado ao navegador do cliente
+    O Php possui uma vasta comunidade de desenvolvedores e suporte de diversas plataformas tornando-a uma opcao
+    popular para o dessenvolvimento de prohetos web de diferentes tipos e tamanhos.
+    
+   
+***********************************************************
+
+Protocolo HTTP
+
+Hypertext transfer protocol
+
+dados podem ser transmitidos em uma rede IP tanto interna como publica(internet)
+transferencia de paginas web e dados entre um servidor web e um navegador, nao entanto nao esta restrito soh para isso
+status
+criptografado nao tem
+
+Http request
+http response
+
+HTTPS
+    proteger a comunicacao entre sistemas como servidor e navegador
+    transmitir dados confidenciais
+    certificado tem, que o criptografado soh sabem quem envia e quem escuta
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
